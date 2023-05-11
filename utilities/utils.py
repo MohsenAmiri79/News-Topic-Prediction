@@ -12,5 +12,5 @@ class dict2w(dict):
         dict.__delitem__(self, key)
 
     def __len__(self):
-        """Returns the number of connections"""
         return dict.__len__(self) // 2
+    
