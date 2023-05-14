@@ -1,4 +1,7 @@
 class dict2w(dict):
+    ''' creates a two-way dictionary
+        by adding one key-value pair, a value-key pair is added as well
+    '''
     def __setitem__(self, key, value):
         if key in self:
             del self[key]
